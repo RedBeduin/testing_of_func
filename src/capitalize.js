@@ -1,5 +1,5 @@
 const capitalize = (text) => {
-  if (text === '') {
+  if (assert.deepEqual(text, '')) {   
     return '';
   }
   const firstChar = text[0].toUpperCase();
